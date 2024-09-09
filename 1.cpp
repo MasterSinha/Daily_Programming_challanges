@@ -25,7 +25,7 @@ void insertionSort(int array[], int size) {
 
 
 int main() {
-  int data[] = {9, 5, 1};
+  int data[] = {0, 1, 2, 1, 0, 2, 1, 0};
   int size = sizeof(data) / sizeof(data[0]);
   insertionSort(data, size);
   cout << "Sorted array in ascending order:\n";
